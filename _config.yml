@@ -1,11 +1,11 @@
 # Where things are
-source: .
-destination: ./_site
+# source: .
+# destination: ./_site
 plugins_dir: ./_plugins
-layouts_dir: ./_layouts
-# data_dir: ./_posts
-includes_dir: ./_includes
-collections: null
+# layouts_dir: ./_layouts
+# # data_dir: ./_posts
+# includes_dir: ./_includes
+# collections: null
 
 # Handling Reading
 safe: false
