@@ -3,7 +3,7 @@ source: .
 destination: ./_site
 plugins_dir: ./_plugins
 layouts_dir: ./_layouts
-# data_dir: ./_data
+data_dir: ./_data
 includes_dir: ./_includes
 collections: null
 
@@ -26,7 +26,7 @@ whitelist: []
 gems: ["jekyll-paginate"]
 
 # Conversion
-markdown: kramdown
+markdown: redcarpet
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
