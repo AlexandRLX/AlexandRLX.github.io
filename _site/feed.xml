@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>i CCM</title>
+        <description></description>
+        <link>http://iccm.cc</link>
+        <atom:link href="http://iccm.cc/atom.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>机器学习部署</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;调研了一下，主要方法有：&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 28 Apr 2016 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/machine-learning-deployment</link>
+                <guid isPermaLink="true">http://iccm.cc/machine-learning-deployment</guid>
+            </item>
+        
+            <item>
+                <title>排名算法简介</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;想要知道一个player的水平如何，最简单的方式就是看他的排名。比如&lt;a href=&quot;http://www.fifa.com/worldranking/rankingtable/index.html&quot;&gt;FIFA World Rankings&lt;/a&gt;，&lt;a href=&quot;http://www.wtatennis.com/singles-rankings&quot;&gt;WTA Rankings&lt;/a&gt;等等。这些竞赛排名通常会与胜负率、比赛的重要程度、参与比赛的场数有直接关系，往往不能反应player的“真实”水平。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Mon, 01 Sep 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/ranking-algorithms-introduction</link>
+                <guid isPermaLink="true">http://iccm.cc/ranking-algorithms-introduction</guid>
+            </item>
+        
+            <item>
+                <title>萌萌哒排序法声音</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;冒泡排序的声音真的很像汽水冒泡！而且还有呆萌呆萌的猴子排序法。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sun, 10 Aug 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/sound-of-sorting</link>
+                <guid isPermaLink="true">http://iccm.cc/sound-of-sorting</guid>
+            </item>
+        
+            <item>
+                <title>data.table包问题整理</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;data.table包比tapply快10+倍，比==快100+倍, 比DF[i, j] &amp;lt;- value快500+倍，绝对是值得花精力去学习的一个包。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sat, 12 Jul 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/data-table-package-qa</link>
+                <guid isPermaLink="true">http://iccm.cc/data-table-package-qa</guid>
+            </item>
+        
+            <item>
+                <title>三门问题及解法</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;第一次听到&lt;a href=&quot;http://en.wikipedia.org/wiki/Monty_Hall_problem&quot;&gt;三门问题&lt;/a&gt;是在电影《决胜21点》中，教授给出游戏&lt;em&gt;Let’s Make a Deal&lt;/em&gt;的设定：&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 10 Jul 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/monty-hall-problem</link>
+                <guid isPermaLink="true">http://iccm.cc/monty-hall-problem</guid>
+            </item>
+        
+            <item>
+                <title>Git Workflow</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;&lt;img src=&quot;http://assets.osteele.com/images/2008/git-transport.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Fri, 30 May 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/git-workflow</link>
+                <guid isPermaLink="true">http://iccm.cc/git-workflow</guid>
+            </item>
+        
+            <item>
+                <title>Hadoop生态圈简介</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;除了Core Hadoop（通常包括HDFS和MapReduce）之外，Hadoop生态圈现在还包括了许多软件使得Hadoop更易于使用。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 29 May 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/hadoop-ecosystem</link>
+                <guid isPermaLink="true">http://iccm.cc/hadoop-ecosystem</guid>
+            </item>
+        
+            <item>
+                <title>R语言中的lapply sapply apply tapply mapply</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;在R语言中，循环语句除了常见的for, while之外，还有很重要的apply族函数：lapply sapply apply tapply mapply。apply族函数是高效能计算的运算向量化(Vectorization)实现方法之一，比起传统的for,while常常能获得更好的性能。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Fri, 07 Mar 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/lapply-sapply-apply-tapply-mapply-in-r-language</link>
+                <guid isPermaLink="true">http://iccm.cc/lapply-sapply-apply-tapply-mapply-in-r-language</guid>
+            </item>
+        
+            <item>
+                <title>Stephen Wolfram介绍Wolfram Language视频</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;对Wolfram的记忆还保留在当年大学建模时用过的科学计算工具Wolfram Mathematica和用过的输出形式很好的搜索Wolfram Alpha。在2010年的TED Talk（[Stephen Wolfram:][1][Computing a theory of all knowledge][1]）后，Wolfram发布了努力多年的结果[Wolfram Language][2]。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Fri, 28 Feb 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/stephen-wolfram-introduction-wolfram-language</link>
+                <guid isPermaLink="true">http://iccm.cc/stephen-wolfram-introduction-wolfram-language</guid>
+            </item>
+        
+            <item>
+                <title>动态局部回归过程</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;局部回归Loess作为简单线性回归和最近邻KNN思想结合的产物，不仅直观，而且比较灵活。在数据探索过程中，对二元散点图做局部回归是基本步骤。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Tue, 25 Feb 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/loess-in-gif</link>
+                <guid isPermaLink="true">http://iccm.cc/loess-in-gif</guid>
+            </item>
+        
+            <item>
+                <title>R语言中的色彩和调色板</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;可视化数据时，色彩往往是最欠考虑的因素。的确，在一个图中，数据的选择和图表类型的确定才是最重要，最需要确定的因素。但是，适当的选择颜色不仅仅能使数据图的阅读者赏心悦目，而且有助于图中数据关系的呈现，使得整个图表更有说服力。这篇文章将简单介绍R语言中的色彩和调色板相关package和函数。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sun, 23 Feb 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/colors-and-palettes-in-r-language</link>
+                <guid isPermaLink="true">http://iccm.cc/colors-and-palettes-in-r-language</guid>
+            </item>
+        
+            <item>
+                <title>分类器评价与在R中的实现：ROC图与AUC</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;分类模型评价一般有以下几种方法：混淆矩阵(Confusion Matrix)、收益图(Gain Chart)、提升图(Lift Chart)、KS图(KS Chart)、接受者操作特性曲线(ROC Chart)。“分类器评价与在R中的实现”系列中将逐个介绍。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Wed, 19 Feb 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/classification-model-evaluation-roc-chart-auc</link>
+                <guid isPermaLink="true">http://iccm.cc/classification-model-evaluation-roc-chart-auc</guid>
+            </item>
+        
+            <item>
+                <title>数据科学家养成地图</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;&lt;img src=&quot;http://nirvacana.com/thoughts/wp-content/uploads/2013/07/RoadToDataScientist1-1024x831.png&quot; alt=&quot;image&quot; /&gt;
+来自&lt;a href=&quot;http://nirvacana.com/thoughts/becoming-a-data-scientist/&quot; target=&quot;_blank&quot;&gt;Swami Chandrasekaran&lt;/a&gt;，已设桌面以自勉。&lt;/p&gt;
+</description>
+                
+                <pubDate>Wed, 05 Feb 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/map-to-data-scientist</link>
+                <guid isPermaLink="true">http://iccm.cc/map-to-data-scientist</guid>
+            </item>
+        
+            <item>
+                <title>R语言中的泊松回归</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;泊松回归用来对计数型反应变量或者列联表进行回归分析，是在广义线性模型中除逻辑回归外最常用的回归分析模型。泊松回归假设反应变量服从泊松分布，反应变量的期望值的对数可以用线性回归分析（即连接函数为对数函数），泊松回归也被称为对数线性回归。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sun, 02 Feb 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/poisson-regression-in-r</link>
+                <guid isPermaLink="true">http://iccm.cc/poisson-regression-in-r</guid>
+            </item>
+        
+            <item>
+                <title>R语言中的正则表达式</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;能使用正则表达式处理文本是R语言强大的特点之一。对正则表达式不熟悉的同学请出门左转恶补一下&lt;a href=&quot;http://cdn.dzone.com/sites/all/files/refcardz/rc196-010d-regex_1.pdf&quot; target=&quot;_blank&quot;&gt;正则表达式语法速成教程（英文）&lt;/a&gt;或者&lt;a href=&quot;http://deerchao.net/tutorials/regex/regex.htm&quot; target=&quot;_blank&quot;&gt;正则表达式30分钟入门教程（中文）&lt;/a&gt;。R语言的base包中正则表达式函数（&lt;a href=&quot;http://stat.ethz.ch/R-manual/R-patched/library/base/html/grep.html&quot; target=&quot;_blank&quot;&gt;官方文档&lt;/a&gt;）主要是以下几个：grep(), grepl(),sub(), gsub(), regexpr(), regexec(), gregexpr()。下面将分开介绍。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Tue, 28 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/regular-expression-r-language</link>
+                <guid isPermaLink="true">http://iccm.cc/regular-expression-r-language</guid>
+            </item>
+        
+            <item>
+                <title>分类器评价与在R中的实现：收益图与提升图</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;分类模型评价一般有以下几种方法：混淆矩阵(Confusion Matrix)、收益图(Gain Chart)、提升图(Lift Chart)、KS图(KS Chart)、接受者操作特性曲线(ROC Chart)。“分类模型评价与在R中的实现”系列中将逐个介绍。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sun, 26 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/classification-model-evaluation-gain-chart-lift-chart</link>
+                <guid isPermaLink="true">http://iccm.cc/classification-model-evaluation-gain-chart-lift-chart</guid>
+            </item>
+        
+            <item>
+                <title>机器学习/数据科学公开课推荐</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;Coursera上Johns Hopkins University前两日发布了数据科学(Data Science)专业系列公开课，顺风推荐一些别的机器学习/数据科学相关MOOC或者其他来源的课程以供大家参考。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 23 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/machine-learning-data-science-mooc-course-recommendation</link>
+                <guid isPermaLink="true">http://iccm.cc/machine-learning-data-science-mooc-course-recommendation</guid>
+            </item>
+        
+            <item>
+                <title>TED lessons 什么是算法</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;来自&lt;a href=&quot;http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan#watch&quot; target=&quot;_blank&quot;&gt;TED lessons：What’s an algorithm? – David J. Malan&lt;/a&gt;。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sun, 19 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/ted-lessons-what-is-an-algorithm</link>
+                <guid isPermaLink="true">http://iccm.cc/ted-lessons-what-is-an-algorithm</guid>
+            </item>
+        
+            <item>
+                <title>分类器评价与在R中的实现：混淆矩阵</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;分类模型评价一般有以下几种方法：混淆矩阵(Confusion Matrix)、收益图(Gain Chart)、提升图(Lift Chart)、KS图(KS Chart)、接受者操作特性曲线(ROC Chart)。“分类模型评价与在R中的实现”系列中将逐个介绍。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sat, 18 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/classification-model-evaluation-confusion-matrix</link>
+                <guid isPermaLink="true">http://iccm.cc/classification-model-evaluation-confusion-matrix</guid>
+            </item>
+        
+            <item>
+                <title>R语言中生成虚拟变量/哑变量</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;在R语言中对包括分类变量(factor)的数据建模时，一般会将其自动处理为虚拟变量或哑变量(dummy variable)。但有一些特殊的函数，如neuralnet包中的neuralnet函数就不会预处理。如果直接将原始数据扔进去，会出现”requires numeric/complex matrix/vector arguments”需要数值/复数矩阵/矢量参数错误。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Wed, 15 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/generate-dummy-variable-in-r-language</link>
+                <guid isPermaLink="true">http://iccm.cc/generate-dummy-variable-in-r-language</guid>
+            </item>
+        
+            <item>
+                <title>机器学习入门-机器学习的不同类型</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;机器学习指的是机器通过学习数据，得到技巧的过程。比如，现在需要让机器学习病人判断是否获病。我们可以从目标整体(population)所有人中抽出用以训练的样本(sample)，把这些样本的病人、正常人身体资料作为输入(input)，是否患病等讯息作为输出(output)喂给机器，机器以某种学习算法(training algorithm)对其进行处理，最后获得某种有用的知识(final hypothesis)，比如某种根据N个变量的关系判断是否患病的计算公式。我们希望用有效的算法使得这个最终的hypothesis尽量贴近整体的真实情况。根据这个过程中的几个关键字，可以将机器学习分类成不同类型。&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Sun, 12 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/types-of-machine-learning</link>
+                <guid isPermaLink="true">http://iccm.cc/types-of-machine-learning</guid>
+            </item>
+        
+            <item>
+                <title>数据集推荐</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;政府数据&lt;br /&gt;
+美国 &lt;a href=&quot;http://www.data.gov/&quot; target=&quot;_blank&quot;&gt;Data.gov&lt;/a&gt;&lt;br /&gt;
+英国 &lt;a href=&quot;http://data.gov.uk/&quot; target=&quot;_blank&quot;&gt;data.gov.uk&lt;/a&gt;&lt;br /&gt;
+Gapminder  &lt;a href=&quot;http://www.gapminder.org/data/&quot; target=&quot;_blank&quot;&gt;gapminder.org&lt;/a&gt;&lt;br /&gt;
+中国经济普查 &lt;a href=&quot;http://data.stats.gov.cn/&quot; target=&quot;_blank&quot;&gt;data.stats.gov.cn&lt;/a&gt;&lt;br /&gt;
+世界银行 &lt;a href=&quot;http://data.worldbank.org/&quot; target=&quot;_blank&quot;&gt;data.worldbank.org&lt;/a&gt;&lt;br /&gt;
+联合国 &lt;a href=&quot;http://data.un.org/&quot; target=&quot;_blank&quot;&gt;UNData&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Mon, 06 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/datasets-resource-recommendation</link>
+                <guid isPermaLink="true">http://iccm.cc/datasets-resource-recommendation</guid>
+            </item>
+        
+            <item>
+                <title>哈哈脸教你PageRank</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/6/69/PageRank-hi-res.png/800px-PageRank-hi-res.png&quot; alt=&quot;image&quot; /&gt;]&lt;/p&gt;
+</description>
+                
+                <pubDate>Sat, 04 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/pagerank-in-cartoon</link>
+                <guid isPermaLink="true">http://iccm.cc/pagerank-in-cartoon</guid>
+            </item>
+        
+            <item>
+                <title>用信息值进行特征选择</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;特征选择（feature selection）或者变量选择(variable selection)是在建模之前的重要一步。数据接口越来越多的今后，数据集的原始变量、衍生变量会越来越多，如何从中选取subset适用到模型之上在实际数据应用中十分重要。&lt;!--more--&gt;&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Fri, 03 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/feature-selection-using-information-value</link>
+                <guid isPermaLink="true">http://iccm.cc/feature-selection-using-information-value</guid>
+            </item>
+        
+            <item>
+                <title>2014你好</title>
+                
+                    <dc:creator>CCM</dc:creator>
+                
+                
+                    <description>&lt;p&gt;UPDATE:
+14年7月喜新厌旧投入github pages的怀抱，喜欢这种用Markdown的感觉。
+之前考虑过farbox，但是还是觉得jekyll比较有意思。:)&lt;/p&gt;
+
+</description>
+                
+                <pubDate>Thu, 02 Jan 2014 00:00:00 +0800</pubDate>
+                <link>http://iccm.cc/2014-hello</link>
+                <guid isPermaLink="true">http://iccm.cc/2014-hello</guid>
+            </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!--  Homepage -->
+  <url>
+    <loc>http://iccm.cc/</loc>
+    <lastmod>2016-04-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://iccm.cc/machine-learning-deployment</loc>
+    
+    <lastmod>2016-04-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/ranking-algorithms-introduction</loc>
+    
+    <lastmod>2014-09-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/sound-of-sorting</loc>
+    
+    <lastmod>2014-08-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/data-table-package-qa</loc>
+    
+    <lastmod>2014-07-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/monty-hall-problem</loc>
+    
+    <lastmod>2014-07-10</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/git-workflow</loc>
+    
+    <lastmod>2014-05-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/hadoop-ecosystem</loc>
+    
+    <lastmod>2014-05-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/lapply-sapply-apply-tapply-mapply-in-r-language</loc>
+    
+    <lastmod>2014-03-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/stephen-wolfram-introduction-wolfram-language</loc>
+    
+    <lastmod>2014-02-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/loess-in-gif</loc>
+    
+    <lastmod>2014-02-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/colors-and-palettes-in-r-language</loc>
+    
+    <lastmod>2014-02-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/classification-model-evaluation-roc-chart-auc</loc>
+    
+    <lastmod>2014-02-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/map-to-data-scientist</loc>
+    
+    <lastmod>2014-02-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/poisson-regression-in-r</loc>
+    
+    <lastmod>2014-02-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/regular-expression-r-language</loc>
+    
+    <lastmod>2014-01-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/classification-model-evaluation-gain-chart-lift-chart</loc>
+    
+    <lastmod>2014-01-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/machine-learning-data-science-mooc-course-recommendation</loc>
+    
+    <lastmod>2014-01-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/ted-lessons-what-is-an-algorithm</loc>
+    
+    <lastmod>2014-01-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/classification-model-evaluation-confusion-matrix</loc>
+    
+    <lastmod>2014-01-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/generate-dummy-variable-in-r-language</loc>
+    
+    <lastmod>2014-01-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/types-of-machine-learning</loc>
+    
+    <lastmod>2014-01-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/datasets-resource-recommendation</loc>
+    
+    <lastmod>2014-01-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/pagerank-in-cartoon</loc>
+    
+    <lastmod>2014-01-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/feature-selection-using-information-value</loc>
+    
+    <lastmod>2014-01-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/2014-hello</loc>
+    
+    <lastmod>2014-01-02</lastmod>
+    
+  </url>
+  
+
+  
+  <url>
+    <loc>http://iccm.cc/archives</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/contact</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/links</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/page2/</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/page3/</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://iccm.cc/page4/</loc>
+    
+    <lastmod>2016-04-30</lastmod>
+    
+    
+    
+  </url>
+  
+
+</urlset>
