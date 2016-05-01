@@ -12,5 +12,5 @@ description: 6分钟，15钟排序算法的visualization和sonification。
 
 [源码](http://panthema.net/2013/sound-of-sorting/sound-of-sorting-0.6.5/src/SortAlgo.cpp.html)，[伪代码](http://panthema.net/2013/sound-of-sorting/SoS-CheatSheet.pdf) by [Timo Bingmann](http://panthema.net/2013/sound-of-sorting/)
 
-<iframe height=498 width=510 src="http://player.youku.com/embed/XNTkwNzI5OTIw" frameborder=0 allowfullscreen></iframe>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XNTkwNzI5OTIw" frameborder="0" allowfullscreen></iframe>
 
