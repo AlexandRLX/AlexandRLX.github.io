@@ -26,7 +26,7 @@ whitelist: []
 gems: ["jekyll-paginate"]
 
 # Conversion
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
