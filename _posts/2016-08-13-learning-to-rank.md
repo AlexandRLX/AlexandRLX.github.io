@@ -48,8 +48,18 @@ $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
 
 ## L2R模型评价指标
 1. Mean reciprocal rank(MRR)
+    定义query最相关文档的排序为r(q)，MRR = 1/r(q)。
+        
 2. Mean average precision(MAP)
+    定义k处的精度P为：
+    $$P@k(\pi)\triangleq \frac{num.\ relevant\ documents\ in\ the\ top k\ positions\ of \pi}{k}$$
+    平均精度为AP：
+    $$AP(\pi)\triangleq\frac{\sum_k P@k(\pi) I_k}{num.\ relevant\ documents}$$
+
 3. Normalized discounted cumulative gain(NDCG)
+    $$DCG@k(r) = r_1 + \sum_{i=2}^k \frac{r_i}{log_2 i}$$
+    其中ri是i的相关程度。
 4. Rank correlation
+    直接衡量预测排序和实际排序之间的相关程度。多种统计学检验都可以，比如Kendall's $\tau$。
 
 [ref]MLAPP 9.7
