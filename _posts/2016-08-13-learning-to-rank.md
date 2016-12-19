@@ -61,5 +61,25 @@ $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
     其中ri是i的相关程度。
 4. Rank correlation
     直接衡量预测排序和实际排序之间的相关程度。多种统计学检验都可以，比如Kendall's $\tau$。
+    
+## 相关论文推荐
+0. Joachims, T. (2002). Optimizing Search Engines using Clickthrough Data, 1–10.
+1. Zhai and La erty (2004) Zhai, C. and J. La erty (2004). A study of smoothing methods for language models applied to infor- mation retrieval. ACM Trans. on In- formation Systems 22(2), 179–214.
+2. Burges, C. J., T. Shaked, E. Renshaw, A. Lazier, M. Deeds, N. Hamilton, and G. Hullender (2005). Learning to rank using gradient descent. In Intl. Conf. on Machine Learning, pp. 89–96.
+3. Cao, Z., T. Qin, T.-Y. Liu, M.-F. Tsai, and H. Li (2007). Learning to rank: From pairwise approach to listwise approach. In Intl. Conf. on MachineLearning, pp. 129âA ̆S ̧136.
+4. Xia, F. (2008). Listwise Approach to Learning to Rank - Theory and Algorithm, 1–8.
+5. Carterette, B., P. Bennett, D. Chicker- ing, and S. Dumais (2008). Here or There: Preference Judgments for Relevance. In Proc. ECIR.
+6. Liu, T.-Y. (2009). Learning to rank for information retrieval. Founda- tions and Trends in Information Retrieval 3(3), 225–331.
+7. Usunier, N., D. Bu oni, and P. Galli- nari (2009). Ranking with ordered weighted pairwise classification.
+8. Zhang, X., T. Graepel, and R. Herbrich (2010). Bayesian Online Learning for Multi-label and Multi-variate Performance Measures. In AI/Statis- tics.
+9. Zheng, Z. (2016). A Regression Framework for Learning Ranking Functions Using Relative Relevance Judgments, 1–8.
+ 
+
+* http://www.bing.com/community/site_blogs/b/search/archive/2009/06/01/user-needs-f eatures-and-the-science-behind-bing.aspx
+
+
+
+
+
 
 [ref]MLAPP 9.7
