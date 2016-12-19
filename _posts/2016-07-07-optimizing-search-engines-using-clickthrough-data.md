@@ -11,7 +11,9 @@ description:
 2002 by Thorsten Joachims
 关键词：ranking, CTR, SVM
 
-问题表述为：给定查询q和文档集$D = \{d_1, ..., d_m \}$，找到最优的retrieval system，其应该根据文档和查询的相关性给出最佳排序$r^*$。本文提出利用CTR数据和SVM方法，在risk minimization框架下学习retrival functions。
+问题表述为：给定查询q和文档集$D = \{d_1, ..., d_m \}$，找到最优的retrieval system，其应该根据文档和查询的相关性给出最佳排序$r^*$。本文提出利用CTR数据和SVM方法，在risk minimization框架下学习retrival functions。具体地，以优化Kendall's $\tau$为目标，对$Pr(q, r^*)$，找到$f(q)$，最大化$$\tau_P(f) = \int \tau(r_{f(q)}, r^*) dPr(q, r^*)$$
+
+## CTR数据
 
 CTR数据由三部分组成(q, r, c)。
 q为查询，可以理解为关键字的组合，更广义可以将用户偏好及信息状态包含进来。
@@ -23,5 +25,16 @@ CTR信息中虽然推断不出绝对的相关度排名，但是能让我们了�
 p.3: Algorithm 1. (Extracting Preference Feedback from Clickthrough)
 For a ranking $(link_1 , link_2 , link_3 , ...)$ and a set C containing the ranks of the clicked-on links, extract a preference example $$link_i <_{r^*} link_j \\ for\ all\ pairs\ 1 ≤ j < i, with\ i \in C \ and\ j\notin C$$
 
+## Ranking SVM
+p.4: Optimization Problem 1. (Ranking SVM) 
 
+minimize:
+$$V(w⃗,ξ⃗)=\frac{1}{2}w⃗·w⃗ +C\sumξ_{i,j,k}$$
+
+subject to:
+$$
+∀(d_i,d_j)∈r^∗_1:w⃗Φ(q_1,d_i)≥w⃗Φ(q_1,d_j)+1−ξ_{i,j,1}
+\\...
+\\∀(d_i,d_j)∈r^∗_n:w⃗Φ(q_n,d_i)≥w⃗Φ(q_n,d_j)+1−ξ_{i,j,n}
+\\∀i∀j∀k : ξ_{i,j,k} ≥ 0$$
 
