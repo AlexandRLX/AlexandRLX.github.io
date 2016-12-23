@@ -20,6 +20,8 @@ $$sim(q, d) \triangleq p(q|d) = \prod_{i=1}^{n}p(q_i|d)$$
 $$p(t|d) = (1-\lambda)\frac{TF(t, d)}{LEN(d)} + \lambda p(t|background)$$
 
 ## pointwize approach
+eg. Pranking, MCRank, etc.
+
 过程：
 
 1. 对每个document $d_j$，构造特征$x(q, d_j)$。
@@ -31,6 +33,8 @@ $$p(t|d) = (1-\lambda)\frac{TF(t, d)}{LEN(d)} + \lambda p(t|background)$$
 分析与document的位置无关，比较短视（myopical）。
 
 ## pairwize approach
+eg. Ranking SVM, RankBoost, RankNet, etc.
+
 比pointwize不同，pairwize比较两个document相关程度哪个更大：
 $$p(y_{jk}|x(q, d_j), x(q, d_k))$$
 $y_{jk} = 1 \ if \ rel(d_j, q) > rel(d_k, q)\ else\ 0$
@@ -41,6 +45,9 @@ $$p(y_{jk}=1|x_j, x_k) = sigm(f(x_j) - f(x_k))$$
 缺点：只两两比较，比较局部。
 
 ## listwize approach
+eg.
+* Direct optimization of IR measure: AdaRank, SVM-MAP, SoftRank, LambdaRank, etc.
+* Listwise loss minimization: RankCosine, ListNet, etc.
 首先考虑Plackett-Luce分布：
 $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
 
@@ -64,7 +71,7 @@ $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
     
 ## 相关论文推荐
 0. Joachims, T. (2002). Optimizing Search Engines using Clickthrough Data, 1–10.
-1. Zhai and La erty (2004) Zhai, C. and J. La erty (2004). A study of smoothing methods for language models applied to infor- mation retrieval. ACM Trans. on In- formation Systems 22(2), 179–214.
+1. Zhai and La erty (2004) Zhai, C. and J. La erty (2004). A study of smoothing methods for language models applied to information retrieval. ACM Trans. on In- formation Systems 22(2), 179–214.
 2. Burges, C. J., T. Shaked, E. Renshaw, A. Lazier, M. Deeds, N. Hamilton, and G. Hullender (2005). Learning to rank using gradient descent. In Intl. Conf. on Machine Learning, pp. 89–96.
 3. Cao, Z., T. Qin, T.-Y. Liu, M.-F. Tsai, and H. Li (2007). Learning to rank: From pairwise approach to listwise approach. In Intl. Conf. on MachineLearning, pp. 129âA ̆S ̧136.
 4. Xia, F. (2008). Listwise Approach to Learning to Rank - Theory and Algorithm, 1–8.
@@ -82,4 +89,12 @@ $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
 
 
 
-[ref]MLAPP 9.7
+*Reference*
+
+1. MLAPP 9.7
+2. 
+<a href='http://videolectures.net/icml08_liu_lalr/'>
+  <img src='http://videolectures.net/icml08_liu_lalr/thumb.jpg' border=0/>
+  <br/>Listwise Approach to Learning to Rank - Theory and Algorithm</a><br/>
+Tie-Yan Liu
+

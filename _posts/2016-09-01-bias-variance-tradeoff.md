@@ -30,3 +30,5 @@ noise是即使我们知道“真实”的模型，也由于数据噪音导致的
     RSS = noise
 
 ![img](http://www.kdnuggets.com/wp-content/uploads/bias-and-variance.jpg)
+
+Andrew Ng在NIPS 2016的讲义Nuts and bolts of building AI applications using Deep Learning中，提出了现在对bias/variance的新观点。
