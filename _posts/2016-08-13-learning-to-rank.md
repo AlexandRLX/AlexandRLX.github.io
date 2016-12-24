@@ -25,7 +25,7 @@ eg. Pranking, MCRank, etc.
 过程：
 
 1. 对每个document $d_j$，构造特征$x(q, d_j)$。
-2. 从历史CTR(具体见[*Optimizing Search Engines using Clickthrough Data*](http://iccm.cc/optimizing_search_engines_using_clickthrough_data/))，或其它相关结果中构造目标$y_i$。
+2. 从历史CTR(具体见*Optimizing Search Engines using Clickthrough Data*)，或其它相关结果中构造目标$y_i$。
 3. y可以是二维的（经典分类问题）$p(y=1|x(q,d))$，也可以是有序的$p(y=r|x(q,d))$。
 4. 预测出y的分值后，对其进行排序
 
@@ -33,7 +33,7 @@ eg. Pranking, MCRank, etc.
 分析与document的位置无关，比较短视（myopical）。
 
 ## pairwize approach
-eg. Ranking SVM, RankBoost, RankNet, etc.
+eg. [Ranking SVM](http://iccm.cc/optimizing_search_engines_using_clickthrough_data/), RankBoost, [RankNet](http://iccm.cc/learning_to_rank_using_gradient_descent/), etc.
 
 比pointwize不同，pairwize比较两个document相关程度哪个更大：
 $$p(y_{jk}|x(q, d_j), x(q, d_k))$$
