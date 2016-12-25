@@ -60,5 +60,12 @@ $$\frac{\partial f}{\partial b^3} = f^\prime (g_2^{\prime 3} - g_1^{\prime 3}) \
 \frac{\partial f}{\partial w_{mn}^{21}} = \triangle_{2m}^2 g_{2n}^1 - \triangle_{1m}^2 g_{1n}^1 
 $$
 
+## 优点:
+1. 可以训练不consistant的数据, 如rank a > rank b, rank b > rank c, rank c > rank a
+2. cost在$o_{ij} = 0$时取到最小值,且在离0点较远的地方渐进于线性,更加robust
+3. certain -> more certain
+
+## Furthur reading
+http://research.microsoft.com/en-us/um/people/cburges/tech_reports/msr-tr-2010-82.pdf
 
 [视频](http://videolectures.net/icml2015_burges_learning_to_rank/)
