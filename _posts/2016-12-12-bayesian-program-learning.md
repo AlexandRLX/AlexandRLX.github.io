@@ -4,7 +4,7 @@ author: c cm
 layout: post
 permalink: /bayesian_program_learning/
 categories: 机器学习
-tags:贝叶斯
+tags: 贝叶斯
 description:
 ---
 
