@@ -54,25 +54,37 @@ $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
 其中$s_j = s(\pi^{-1}(j))$是排在第j位的分数。算法ListNet的思路中，将$s(d) = f(x(q, d)) = w^Tx$
 
 ## L2R模型评价指标
+主要类型：binary：文章label为二元：相关／无关, multilevel.
+
+### binary       
 1. Mean reciprocal rank(MRR)
-    定义query最相关文档的排序为r(q)，MRR = 1/r(q)。
-        
+    定义query最相关文档的排序为r(q)，RR = 1/r(q)。
+
 2. Mean average precision(MAP)
     定义k处的精度P为：
     $$P@k(\pi)\triangleq \frac{num.\ relevant\ documents\ in\ the\ top k\ positions\ of \pi}{k}$$
     平均精度为AP：
     $$AP(\pi)\triangleq\frac{\sum_k P@k(\pi) I_k}{num.\ relevant\ documents}$$
 
-3. Normalized discounted cumulative gain(NDCG)
+3. Winner Takes All(WTA)
+    如果排序第一位文档相关，则cost为0，否则cost为1。
+    
+### multilevel
+1. Pair-wise Correct
+    = num. pairs correct/num. pairs possible  
+    bpref基于Pair-wise Correct，并对排序较高的文档增加权重
+
+2. Normalized discounted cumulative gain(NDCG)
     $$DCG@k(r) = r_1 + \sum_{i=2}^k \frac{r_i}{log_2 i}$$
     其中ri是i的相关程度。
-4. Rank correlation
+3. Rank correlation
     直接衡量预测排序和实际排序之间的相关程度。多种统计学检验都可以，比如Kendall's $\tau$。
     
 ## 相关论文推荐
 0. Joachims, T. (2002). Optimizing Search Engines using Clickthrough Data, 1–10.
 1. Zhai and La erty (2004) Zhai, C. and J. La erty (2004). A study of smoothing methods for language models applied to information retrieval. ACM Trans. on In- formation Systems 22(2), 179–214.
 2. Burges, C. J., T. Shaked, E. Renshaw, A. Lazier, M. Deeds, N. Hamilton, and G. Hullender (2005). Learning to rank using gradient descent. In Intl. Conf. on Machine Learning, pp. 89–96.
+3. Burges, C. (2007). Learning to Rank with Nonsmooth Cost Functions, 1–8.
 3. Cao, Z., T. Qin, T.-Y. Liu, M.-F. Tsai, and H. Li (2007). Learning to rank: From pairwise approach to listwise approach. In Intl. Conf. on MachineLearning, pp. 129âA ̆S ̧136.
 4. Xia, F. (2008). Listwise Approach to Learning to Rank - Theory and Algorithm, 1–8.
 5. Carterette, B., P. Bennett, D. Chicker- ing, and S. Dumais (2008). Here or There: Preference Judgments for Relevance. In Proc. ECIR.
