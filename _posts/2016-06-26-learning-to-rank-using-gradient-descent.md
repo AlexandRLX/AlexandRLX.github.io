@@ -66,6 +66,6 @@ $$
 3. certain -> more certain
 
 ## Furthur reading
-http://research.microsoft.com/en-us/um/people/cburges/tech_reports/msr-tr-2010-82.pdf
+[LambdaRank](http://iccm.cc/learning_to_rank_with_nonsmooth_cost_functions/)
 
 [视频](http://videolectures.net/icml2015_burges_learning_to_rank/)
