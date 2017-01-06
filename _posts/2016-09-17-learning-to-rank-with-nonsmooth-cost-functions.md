@@ -37,14 +37,22 @@ $$\sum_j \lambda_j dx^j = 0 \\
 $$
 
 ## LambdaRank应用至RankNet
+给定一对文档，对于其中一个文档，cost为两者的乘积：
 
-RankNet原始cost:
-$$C_{i, j}^R = s_j - s_i + log(1+e^{s_i-s_j})$$
+1. RankNet Cost:
+$$C_{i, j}^R = s_j - s_i + log(1+e^{s_i-s_j})\\
+\partial C_{ij} / \partial o_{ij} = -1/(1+e^{o_{ij}})
+$$
+该计算为pairwise的，只基于该对文档的信息。无论之前排序是否正确，只要$s_j － s_i$增大（如果$s_j$ < $s_i$），cost就会减少。
+2. 假设两个文档排序互换能得到的NDCG gain，$\triangle NDCG$
 
-NDCG
-$$N_i = N_i\sum_{j=1}^L (2^{r(j)} - 1)/log(1+j)$$
+$$N_i = n_i\sum_{j=1}^L (2^{rel(j)} - 1)/log(1+j) \\
+\triangle N_i = n_i (2^{l_i} - 2^{l_j})
+(\frac{1}{log(1+i)} - \frac{1}{log(1+j)})$$
+该计算基于整个查询的返回结果。
 
-两者结合得到$\lambda$
+两个gradient相乘得到$\lambda$
 $$\lambda = N(\frac{1}{1+e^{s_i-s_j}})
 (2^{l_i} - 2^{l_j})
 (\frac{1}{log(1+i)} - \frac{1}{log(1+j)})$$
+
