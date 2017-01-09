@@ -3,8 +3,8 @@ title: Optimizing Search Engines using Clickthrough Data
 author: c cm
 layout: post
 permalink: /optimizing_search_engines_using_clickthrough_data/
-categories: 机器学习
-tags: 论文
+categories: paper
+tags: L2R
 description:
 ---
 

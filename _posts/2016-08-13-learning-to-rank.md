@@ -4,7 +4,7 @@ author: c cm
 layout: post
 permalink: /learning_to_rank/
 categories: 机器学习
-tags:
+tags: L2R
 description:
 ---
 排序模型(learning to rank)在信息检索（information retrieval）、协同过滤（collabrative filtering）中应用广泛。和之前博客中的对参赛选手排名问题不太一样。

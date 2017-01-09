@@ -4,7 +4,7 @@ author: c cm
 layout: post
 permalink: /learning_to_rank_with_nonsmooth_cost_functions/
 categories: paper
-tags: LambdaRank
+tags: LambdaRank L2R
 description:
 ---
 
