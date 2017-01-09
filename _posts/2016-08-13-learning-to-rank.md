@@ -53,6 +53,8 @@ $$p(\pi|s) = \prod_{j=1}^m\frac{s_j}{\sum_{u=j}^m s_u}$$
 
 其中$s_j = s(\pi^{-1}(j))$是排在第j位的分数。算法ListNet的思路中，将$s(d) = f(x(q, d)) = w^Tx$
 
+![L2R history](http://iccm.cc/img/l2r-history.jpeg)
+
 ## L2R模型评价指标
 主要类型：binary：文章label为二元：相关／无关, multilevel.
 
