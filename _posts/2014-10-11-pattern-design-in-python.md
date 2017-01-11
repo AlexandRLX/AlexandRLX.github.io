@@ -1,5 +1,5 @@
 ---
-title: Pattern Design in Python
+title: Python中的设计模式
 author: c cm
 layout: post
 permalink: /pattern_design_in_python/
@@ -7,6 +7,7 @@ categories: python
 tags: python
 description:
 ---
+## 0. iterator pattern
 
 ## 1. decorator pattern
 ```python
@@ -101,3 +102,39 @@ class State2(State):
         context.state = TransState()
         pass
 ```
+
+## 5. singleton pattern
+传统的单例在python中并不常用，甚至是anti-pattern。为了避免创建一堆实例浪费memory，如果实在要用单例，Python中建议用module-level variables模拟单例模式。
+
+```python
+class OneOnly(object):    _singleton = None    def __new__(cls, *args, **kwargs):        if not cls._singleton:            cls._singleton = super(OneOnly, cls).__new__(cls, *args, **kwargs)        return cls._singleton
+```
+
+## 6. template pattern
+```python
+class TemplateClass(object):
+    def do_process(self):
+        self.step1()
+        self.step2()
+        self.step3()
+    
+    def step1():
+        pass
+        
+    def step2():
+        raise NotImplementedError
+        
+    def step3():
+        pass
+
+class Task1(TemplateClass):
+    def step2():
+        pass
+        
+class Task2(TemplateClass):
+    def step2():
+        pass
+```
+
+*Reference*  
+[Python 3 Object-oriented Programming](https://book.douban.com/subject/4823621/)
