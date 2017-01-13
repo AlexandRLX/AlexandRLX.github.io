@@ -26,83 +26,13 @@ tags:
 
 以二元分类为例：
 
-<table  style="width:100%; "  class="easy-table easy-table-default " border="0">
-  <tr>
-    <td  colspan="2">Confusion Matrix</td> <td >
-    </td>
-    
-    <td colspan="2">
-      Target
-    </td>
-    
-    <td >
-    </td>
-  </tr>
-  
-  <tr>
-    <td >
-    </td>
-    
-    <td >
-    </td>
-    
-    <td >
-      Positive
-    </td>
-    
-    <td >
-      Negative
-    </td>
-  </tr>
-  
-  <tr>
-    <td rowspan="2">
-      Model
-    </td>
-    
-    <td >
-      Positive
-    </td>
-    
-    <td >
-      True Positives(TP)
-    </td>
-    
-    <td >
-      False Positives(FP)
-    </td>
-  </tr>
-  
-  <tr>
-    <td >
-      Negative
-    </td>
-    
-    <td >
-      False Negatives(FN)
-    </td>
-    
-    <td >
-      True Negatives(TN)
-    </td>
-  </tr>
-  
-  <tr>
-    <td >
-    </td>
-    
-    <td >
-    </td>
-    
-    <td >
-      Positive Samples(P)
-    </td>
-    
-    <td >
-      Negative Samples(N)
-    </td>
-  </tr>
-</table>
+
+Confusion Matrix|           | Target            |                   |
+----------------| --------- |------------------ | ----------------- |
+Confusion Matrix|           | Positive          | Negative          |
+**Model**       | Positive  | TP(True Positive) | FP(False Positive)|
+                | Negative  | FN(False Negative)| TN(True Negative) |
+                |           | P(Positive Sample)| N(Negative Sample)|
 
 由上表可以计算的指标有：  
 Accuracy = (TP+TN)/(P+N)  
@@ -119,7 +49,8 @@ Rate of Positive Predictions = Detection Prevalence = (TP+FP)/(P+N)
 Rate of Negative Predictions = (TN+FN)/(P+N)  
 Prevalence = (TP+FN)/(P+N)  
 Detection Rate = TP/(P+N)  
-Balanced Accuracy = (Sensitivity+Specificity)/2
+Balanced Accuracy = (Sensitivity+Specificity)/2  
+MCC(Matthews correlation coefficient) = (TP\*TN - FP\*FN)/[(TP+FP)(TP+FN)(TN+FP)(TN+FN)]^(1/2)
 
 是不是感觉这些货已经组合完所有的分子/分母了？没关系，其实只要知道TP和TN越高越好就好了。
 
