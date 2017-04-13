@@ -85,3 +85,11 @@ description:
 * Stochastic Gradient Descent
 * Batch Normalization
 * Shortcut Connections
+
+## 3. Fast processing of CNN
+
+* FFT
+* Structured Transforms
+* Low Precision
+* Weight Compression
+* Sparse Convolution
