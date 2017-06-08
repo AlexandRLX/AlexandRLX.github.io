@@ -59,9 +59,56 @@ $$p_x = p_z(g^{-1}(x))|det\frac{\partial g^{-1}(x)}{\partial x}|$$
 
 ## 4 GANs简介
 ### 1 框架
-两个player的博弈：1. generator, 2. discriminator
+两个player的博弈：  
+    1. generator $G(\theta^G)$, cost function $J^D(\theta^D, \theta^G)$  
+    2. discriminator $D(\theta^D)$, cost function$J^G(\theta^D, \theta^G)$
+Generator负责创造和训练数据类似分布的样本。Discriminator是传统的分类器，负责建检验样本是否足够真实。
 
+训练时的每个step，
+    1. sample两个minibatch：x和z
+    2. 两个SGD同时进行：通过更新$\theta^G$降低$J^G$；通过更新$\theta^D$降低$J^D$
+
+### 2. Cost Function
+1. Discriminator cost function  
+$J^D(\theta^D, \theta^G) = -\frac{1}{2}E_{x\sim p_{data}}logD(x) - \frac{1}{2}E_z log(1-D(G(z)))$
+
+2. Generator cost function
+    1. Minmax zero-sum game
+     $J^G = -J^D$
+    value function $V(\theta^D, \theta^G) = -J^D(\theta^D, \theta^G)$
+    $\theta^{G*} = arg min_{\theta^G} max_{\theta^D} V(\theta^D, \theta^G)$
+    2. Heuristic, non-saturating game
+    $J^G = -\frac{1}{2}E_z logD(G(z))$
+    3. Maximum likelihood game
+    $J^G = -\frac{1}{2}E_z exp(\sigma^{-1}(D(G(z))))$
+    
+3. DCGAN(Deep Convolution GAN)
+    1. batch normalization layers
+    2. no pooling nor unpooling layers, use transposed convolution instead
+    3. Adam optimizer
+
+4. relation with NCE, MLE
+
+
+              | NCE         |MLE         |GAN               |
+------------- | ----------- | ---------- | ---------------- |
+D             |             |            |ANN               |
+Goal          | learn model | learn model|learn generator   |
+G update rule | None        | cp model params | gradient descent on V |
+D update rule |             |            |                  |
+
+### 3 Tricks
+
+* train with labels
+* one-sided label smoothing
+* virtual batch normalization
+* balance G and D?
 
 ## 5 research frontiers in GANs
 
-## 6 state-of-the-art image models that combine GANs with other methods
+* non-convergence
+    * mode collapse
+* evaluation of generative models
+* discrete outputs
+* semi-supervised learning
+* connections to reinforcement learning
