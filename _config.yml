@@ -1,11 +1,11 @@
 # Site settings
-title: CCM Blog
-SEOTitle: CCM的博客 | CCM Blog
+title: AlexandreX blog
+SEOTitle: XRL的博客 | XRL Blog
 header-img: img/home-bg-geek.jpg
-email: ccmien@gmail.com
+email: jacobelction@gmail.com
 description: "致知。"
 keyword: ""
-url: "http://iccm.cc"              # your host, for absolute URL
+url: "http://aotomopiexiao.com"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -14,10 +14,10 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 RSS: true
 # weibo_username:
 # zhihu_username:
-github_username:    ccmien
+github_username:    AlexandRLX
 #twitter_username:
 # facebook_username:
-linkedin_username:  chaominchen
+linkedin_username:  
 
 
 
@@ -52,7 +52,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: iccm
+duoshuo_username: 
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -61,10 +61,10 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 3d0b352074818a5d8d272e1934b15a87
+ba_track_id: 
 # Google Analytics
-ga_track_id: UA-20133350-6             # Format: UA-xxxxxx-xx
-ga_domain: iccm.cc
+ga_track_id:           # Format: UA-xxxxxx-xx
+ga_domain: 
 
 
 
