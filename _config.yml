@@ -1,9 +1,9 @@
 # Site settings
-title: AlexandreX blog
+title: AlexandreX
 SEOTitle: XRL的博客 | XRL Blog
 header-img: img/home-bg-geek.jpg
 email: jacobelction@gmail.com
-description: "致知。"
+description: "la description et l'explication"
 keyword: ""
 url: "http://aotomopiexiao.com"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
