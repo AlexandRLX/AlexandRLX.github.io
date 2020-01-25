@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在_post文档中,我遇到的一些小问题
-date: 2020-01-24
+date: 2020-01-25
 categories: blog
 tags: 
 description: 小小的开始
