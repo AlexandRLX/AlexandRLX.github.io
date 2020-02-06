@@ -8,11 +8,7 @@
 	\ar[r]^------ (-......左..........)
 
 2. 例子
-	$$
-	\xymatrix{
-	\Hom_{\C}(\ilim\alpha,\ilim\alpha) \ar[r] \ar[d] & \plim\Hom(\alpha,\ilim\alpha) \ar[d] \\
-	\Hom(\ilim\alpha,X) \ar[r] & \plim\Hom(\alpha,X)	}
-	$$ ((合乎文法的结尾要紧贴着结束内容))
+	![data](https://raw.githubusercontent.com/AlexandRLX/AlexandRLX.github.io/master/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-07%20%E4%B8%8A%E5%8D%882.10.04.png)
    ![commutative diagram](https://raw.githubusercontent.com/AlexandRLX/AlexandRLX.github.io/master/img/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-07%20%E4%B8%8A%E5%8D%881.54.23.png)
 
 ### 如何在blog中插入图片
