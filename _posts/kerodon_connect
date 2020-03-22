@@ -1,0 +1,30 @@
+
+Kerodon
+Higher categories and homotopy theory
+
+/1 Kerodon
+从上面看到了nerve函子是full-faithful的证明,证明关键就是,nerve中只要有了2-simplex那就确定了<n的结构.
+
+为了定义连通性,先要定义summand. summand是simplicial category中的元素(即函子)C.它的子函子D.,满足C.\D.仍为 simplicial
+object的.我们将连通性就定义为最小的summand对象.
+对单纯集合谈论它的连通性. 在范畴上是\colimit_{i \in n}C_{0}. 并且该余极限与path connected是等价的. 其中path
+connected是Sk_1(C)的连通性. 
+
+其中最关键的引理是 C. --> D. 的映射, D.的summand的逆像也是summand的. 和其推论 一个连通的 C. --->D. 任意的映射,都有其像
+只落在D.中的唯一连通分支里.
+我们需要确认标准单形是连通的.由它我们就可以推导出每一个C.都是由其连通分支direct sum 来的.(这里恰好没用到direct sum的泛性质.)
+
+而对于dold Kan对应,我脑子里好像没剩什么
+这个对应是 simplicial abelian group 做一个 特别的函子 N,其构造是 take d_n:C_n --> C_n-1,{\Cup_{0<i<n+1} Ker(d_n)} as N(C.) 然后 之间的态射就是 d_0.刚好这个映射满足符合为零,做出了链复形.
+然后在这我的参考资料里,他主要讨论了 simplicial albelian group中的nondegenerate东西(好像就是这个,这里您要看一下那个原文...我记不清了.)
+相似我们先定义出了之前cisinski书里面的\tau 就是把单纯集合打到他构造的范畴上的那个,与nerve是对偶的.
+这里的情形非常的简单,这里的\tau就是 N.()这个函子 我们不是先从simplex object 做的,而是直接对simplicial abelian group做的,
+因此这个函子是保持colimit的,自然我们可以定义他的右伴随,就是 C---> Hom_{chain complex}(N.(),C) 从而只需证明这个函子是full-faithful的就证明完毕了.
+
+/2 cisinski
+然后这周我刚刚看了看cisinski的2.1给看完了,这周还是没咋看这本书,周六日我再好好看看. cisinski写的书真难,那让check的东西都是必要的... 其中subobject classfier 我觉得是用pullback的泛性质证的,其实我想看看您能写一下那个证明.我觉得如何从Hom(X,\Omega) --> {subobject of X}这个映射的构造怎么严格的写出来表示困惑,我觉得这件事是要在{\hat{A}/X}中说,然后这个范畴又同构于{\hat{A/X}} 所以有small colimit and limit.然后让符合elementary of A/X 的h_a的subobject自然有了个 subobject到X 的映射锥. 做这个锥的(as skuce category)limit. 这个就是我们要的subobject of X. 然后还需要证明这个映射是单射, 那就 pullback上去看, 又l_a -- >h_a的单射,和米田引理,就能证出来了吧.我准备明天早上再想想...
+我的问题在书上32页中间.
+
+C'est tout ,C'est fini. Bonne journée
+ps.老师我觉得不上学挺好的...自己看书....除了会觉得自己这么菜意外其他都挺好.其实我有个幻想,我们在做的数学,就比如说module论这种,就是某种性质的范畴在集合范畴上的投影吧...我有这个感觉是由于,abel范畴可以嵌入到 A-mod category.
+麻烦童老师了~
